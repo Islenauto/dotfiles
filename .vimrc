@@ -20,6 +20,8 @@ call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
     NeoBundle 'Gist.vim' 
     NeoBundle 'altercation/vim-colors-solarized'
     NeoBundle 'davidhalter/jedi-vim'
+    NeBundle  'Lokaltog/vim-powerline'
+    NeoBundle 'Yggdroot/indentLine'
     call neobundle#end()
 
 filetype plugin indent on
@@ -57,6 +59,14 @@ set matchtime=2     "showmatchのハイライト表示の時間"
 "表示関係"
 set number          "行番号"
 set wrap            "長い文の折り返し"   
+set cursorline      "カーソルラインのハイライト"
+set wildmenu        "コマンドモードの保管"
+
+"ステータスライン"
+set laststatus=2    "ステータスラインを常に表示"
+set showmode        "現在のモードを表示"
+set showcmd         "入力コマンドをステータスラインの下に表示"
+set ruler           "カーソルの現在位置の表示"
 
 "swpファイルを作成しない"
 set noswapfile
