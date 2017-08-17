@@ -20,9 +20,10 @@ call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
     NeoBundle 'Gist.vim' 
     NeoBundle 'altercation/vim-colors-solarized'
     NeoBundle 'davidhalter/jedi-vim'
-    NeBundle  'Lokaltog/vim-powerline'
     NeoBundle 'Yggdroot/indentLine'
+    NeoBundle 'itchyny/lightline.vim'
     call neobundle#end()
+
 
 filetype plugin indent on
 
