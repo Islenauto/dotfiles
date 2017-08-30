@@ -90,6 +90,7 @@ set virtualedit=all "文字がない部分でもカーソル操作を可能に�
 set backspace=2     "winと同じbackspace"
 set expandtab
 
+set smartindent     "改行時に前の行末を参照して自動インデントを行う"
 set shiftwidth=2    "autoindentで挿入される空白数"
 set tabstop=2       "tab-spaceの変換を何文字とするか"
 set softtabstop=0   "標準Inputから入るtabの数"
