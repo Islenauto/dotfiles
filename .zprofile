@@ -11,3 +11,15 @@
  precmd() {vcs_info}
  RPROMPT='${vcs_info_msg_0_}'
 
+# path
+
+# python,ruby
+ export PYENV_ROOT="$HOME/.pyenv"
+ export PATH="$PYENV_ROOT/bin:$PATH"
+ eval "$(pyenv init -)"
+ eval "$(rbenv init -)"
+
+ # tree-tagger
+ export TREETAGGER_ROOT="$HOME/src/tree-tagger"
+ export PATH="$PATH:$TREETAGGER_ROOT/cmd:$TREETAGGER_ROOT/bin"
+
