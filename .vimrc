@@ -22,12 +22,12 @@ call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
     " My Bundles here:
     NeoBundle 'Shougo/neocomplete.vim'
     NeoBundle 'Shougo/unite.vim'
-    NeoBundle 'vimproc' 
     NeoBundle 'Gist.vim' 
     NeoBundle 'altercation/vim-colors-solarized'
     NeoBundle 'davidhalter/jedi-vim'
     NeoBundle 'itchyny/lightline.vim'
     NeoBundle 'Yggdroot/indentLine'
+    NeoBundle 'ervandew/supertab'
 call neobundle#end()
 
 
